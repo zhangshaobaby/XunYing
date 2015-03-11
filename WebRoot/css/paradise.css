@@ -1,0 +1,60 @@
+body{font-size:12px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0px;padding: 0px;}
+ul{list-style-type:none;}
+img{border:none;vertical-align:center;}
+
+.para{ width:1000px; margin:0px auto;}
+.para1{padding:10px 0px;}
+.para1 span{color:#e33340;}
+.para2{border:1px solid #ccc;background-color: #fff;height:938px;}
+/*屌丝币顶部*/
+.para2_top{width:1000px;height:192px;}
+.para2_top1{width:745px;height:190px;float:left;}
+.para2_top2{width:181px;height:156px;float:left;padding:34px 36px 0px 36px;}
+.para2_top2_01{color:#353131;font-weight:bold;font-size:20px;}
+.para2_top2_01 .qdao{float:right;width:53px;height:33px;}
+.para2_top2_02{text-align:center;color:#e33340;font-size:28px;font-weight:bold;padding:30px 0px;}
+.para2_top2_03{text-align:center;}
+.para2_top2_03l a:link,.para2_top2_03l a:visited{color:#e33340;margin-right:14px;}
+.para2_top2_03r a:link,.para2_top2_03r a:visited{color:#e33340;margin-left:14px;}
+
+/*屌丝币tab轮换*/
+.para2_tit{width:930px;margin:0px auto;font-size: 16px;font-weight: bold;height:60px;background:url("../images/pingtai2_bg.png") no-repeat bottom;}
+.para2_tit li{float:left;width:110px;padding:28px 0px 10px;text-align:center;}
+.active{background:url("../images/pingtai2_bg1.png") no-repeat bottom;color:#e33340;}
+.para2_con>div{display:none;}
+.para2_con>div.current{display:block;}
+.para2_con_left{width:741px;height:550px;margin:15px 0px 0px 35px;float:left;}
+
+.para2_con_left2{width:218px;height:200px;border:1px solid #ccc;margin:25px 25px 0px 0px;float:left;}
+.black_bg{color:#fff;background:url("../images/para5.png") no-repeat bottom;width:198px;height:18px;padding:5px 10px;margin-top:-33px;position:relative;z-index:2;}
+.para2_con_left2_01{height:37px;padding:10px;width:200px;}
+.para2_con_left2_01l{float:left;}
+.para2_con_left2_01l span{color:#ff740a;}
+.para2_con_left2_01r2{width:80px;height:37px;background-color:#BEBEBE;float:right;color:#7b7b7b;font-size:16px;text-align:center;line-height:37px;font-weight:bold;}
+.para2_con_left2_01r{width:80px;height:37px;background-color:#ff740a;float:right;color:#fff;font-size:16px;text-align:center;line-height:37px;cursor:pointer;}
+
+.user_cont_r_2d{clear:both;  height:60px; margin:10px 28px 20px 0px; text-align:right;  line-height:60px;}
+
+.para2_con_right{width:192px;height:510px;float:left;margin-top:30px;}
+.para2_con_right1_con{margin:10px 0px 0px 10px;}
+.para2_con_right1_con td{padding:5px 0px;vertical-align:top;}
+.para2_con_right2{margin-top:20px;}
+.para2_con_right2_con{margin:10px 0px 0px 10px;}
+.para2_con_right2_con td{padding:5px 0px;vertical-align:top;}
+.para2_con_right1_tit{color:#000;}
+.para2_con_right2_tit{color:#000;}
+
+
+/*------------- 兑换屌丝币--------------*/
+.color_red{color:#e33340;}
+.para2_con_left1_dui{width:712px;margin-top:25px;text-align:center;}
+.para2_con_left2_dui{width:80px;height:30px;display:inline-block;background-color:#ff740a;color:#fff;font-size:12px;text-align:center;line-height:30px;cursor:pointer;}
+.para2_con_left1_dui tr{height:50px;}
+.para2_con_left1_dui th{font-size:14px;}
+.tr_hui{background:#F6F6F6;}
+
+
+
+.para2_con_left2_dui a:link{color:#ffffff} 
+.para2_con_left2_dui a:visited{color:#ffffff} 

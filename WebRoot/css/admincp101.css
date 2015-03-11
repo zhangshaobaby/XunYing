@@ -1,0 +1,42 @@
+.admincp_r1{ width:800px; height:50px;  margin:0px auto; background:url(../images/admincp_r.png); line-height:50px; }
+.admincp_r1 span{ float:left; margin-left:35px; font-size:16px; font-weight:bold;}
+
+
+.admincp_r3{ width:800px; height:40px;  margin:0px auto; line-height:40px; }
+.admincp_r3 img{ float:right; margin-right:30px;}
+
+.admincp_r2{ width:750px; height:620px; margin:0px auto; font-size:18px; padding-bottom:30px; }
+.admincp_r2_name{ width:800px; height:60px; }
+.admincp_r2_name1{ width:150px; height:60px; float:left;line-height:60px; text-align:center;  }
+.admincp_r2_name2{ width:300px; height:60px; float:left;line-height:60px;}
+.admincp_r2_name3{ width:200px; height:40px; float:left; margin-top:10px; line-height:20px; font-size:14px; color:#999999;}
+
+.admincp_r2 input{ width:250px; height:40px; line-height:40px; font-size:18px; color:#999999; border:1px solid #999999;margin-top:10px;}
+
+.admincp_r2_upload{ width:800px; height:60px; }
+.admincp_r2_upload1{ width:150px; height:60px; float:left;line-height:60px; text-align:center;  }
+.admincp_r2_upload2{ width:100px; height:60px; float:left;line-height:60px; }
+.admincp_r2_upload2 img{ margin-top:13px;}
+.admincp_r2_upload3{ width:200px; height:60px; float:left;line-height:60px; font-size:14px; color:#999999;}
+
+.admincp_r2_file{ width:800px; height:150px; }
+.admincp_r2_file1{ width:150px; height:150px; float:left;  }
+.admincp_r2_file2{ width:650px; height:150px;  float:left;}
+.admincp_r2_file2_a{ width:650px; height:35px;  line-height:35px;}
+.admincp_r2_file2_a input{ width:250px; height:30px;border:1px solid #999999;margin-top:0px;}
+.admincp_r2_file2_a span{ margin-left:0px;}
+.admincp_r2_file2_b{ width:650px; height:115px; margin-top:10px; }
+
+.admincp_r2_file2_b img{width:350px; height:96px;}
+.admincp_r2_file3{ width:50px;  float:left;}
+
+.admincp_r2_button {width:800px; height:60px;  line-height:60px; font-size:13px; }
+.admincp_r2_button1{ width:150px; height:60px; float:left; text-align:center; }
+.admincp_r2_button2{ width:300px; height:60px; float:left; }
+.admincp_r2_button2 img{ margin-top:5px;}
+.admincp_r2_button3{ width:350px; height:60px; float:left;}
+.admincp_r2_button input{ width:121px; height:50px; background:url(../images/button_next.png); border:none; color:#FFFFFF;}
+
+
+
+.admincp_r4{ width:750px; height:40px;  margin:0px auto; line-height:40px; text-align:right; font-size:14px; font-weight:bold;}

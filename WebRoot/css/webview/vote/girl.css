@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0 auto;padding:0}
+body{font-family:microsoft yahei,Verdana,Arial,Helvetica,sans-serif; width: 100%;}
+img{border:none;vertical-align:top;}
+.full_w{width:100%;}
+.girl2{position:relative;}
+.beau_g1{position:absolute; z-index:2;top:2%;left:3%;width:16.5%;}
+.beau_g2{position:absolute; z-index:2;top:2%;left:25%;width:16.5%;}
+.beau_g3{position:absolute; z-index:2;top:2%;left:58%;width:16.5%;}
+.beau_g4{position:absolute; z-index:2;top:2%;left:80%;width:16.5%;}
+.girl3{position:relative;}
+.beau_g5{position:absolute; z-index:2;top:10%;left:3%;width:16.5%;}
+.beau_g6{position:absolute; z-index:2;top:10%;left:25%;width:16.5%;}
+.beau_g7{position:absolute; z-index:2;top:10%;left:58%;width:16.5%;}
+.beau_g8{position:absolute; z-index:2;top:10%;left:80%;width:16.5%;}
+.girl5{background-color:#FB6B92;width:100%;position:relative;overflow:hidden;padding-bottom:20px;}
+.girl5_l{float:left;width:10%;height:100%;background-color:#FB6B92;color:#FB6B92;}
+.girl5_m{float:left;width:80%;background-color:#FB6B92;overflow:hidden;margin-top:20px;position:relative;}
+.girl5_m1{overflow:hidden;width:100%;max-width:400px;height:70px;position:relative;}
+.tiao{width:70%;vertical-align:bottom;margin-top:30px;}
+.piao{float:right;width:30%;height:54px;position:absolute; z-index:3;bottom:0px;right:0px;}
+.piaol{float:left;width:50%;position:relative; z-index:2;}
+.piaol img{width:75%;height:100%;}
+.piaor{float:left;width:40%;}
+.num{text-align:center;position:absolute; z-index:3;top:5px;right:3px;font-size:10px;float:right;color:#e13b6b; background:url(../../../../images/activityvote/kuang.png) no-repeat;background-size:contain;display:inline-block;width:60%;height:30%;line-height:20px;}
+.piaor_name{position:absolute; z-index:3;bottom:8px;right:5px;font-size:12px;float:right;color:#fff;width:50%;height:45%;}
+
+
+
+
+

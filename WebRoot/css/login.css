@@ -1,0 +1,25 @@
+*{margin:0px; padding:0;}
+body{ background:#98c6e5;}
+img{border:none;}
+a{color:#000; font-size:14px;}
+a:hover{color:#ff3333;}
+li{ list-style:none;}
+a,textarea,input{outline:none;blur: expression(this.onFocus=this.blur());} 
+
+.login_bg{ background:url(../images/login.jpg); width:425px; height:280px; position:absolute; top:50%; left:50%; margin:-140px 0px 0px -212px;}
+.login_bg ul{ width:280px; position:relative; top:145px; left:70px;} 
+.login_bg ul li{ width:300px; height:30px; line-height:40px; font-size:14px; #line-height:30px;} 
+.login_bg ul li input{ width:140px; height:16px;}
+.login_bg ul li span input{ width:15px; height:15px; margin:0px 5px 0px 5px;} 
+
+.login_bg .login_code input{ width:50px;}
+.login_bg .login_code img{ position:relative; top:8px; width:80px; height:25px; #top:5px;}
+
+.login_bg .login_btn{ background:url(../images/btn_dl_1.jpg); width:36px; height:20px; position:absolute; top:242px; left:165px; outline:none;blur: expression(this.onFocus=this.blur());}
+.login_bg .login_btn:active{ background:url(../images/btn_dl_2.jpg);}
+
+.login_bg .login_reset{ background:url(../images/btn_cz_1.jpg); width:36px; height:20px; position:absolute; top:242px; left:205px; outline:none;blur: expression(this.onFocus=this.blur());}
+.login_bg .login_reset:active{ background:url(../images/btn_cz_2.jpg);}
+
+.login_bg .code_hintMsg{ color:red; position:absolute; top:245px; left:280px; font-size:14px;}
+

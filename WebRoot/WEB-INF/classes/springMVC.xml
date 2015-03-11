@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+					http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+					http://www.springframework.org/schema/context
+					http://www.springframework.org/schema/context/spring-context-3.1.xsd
+					http://www.springframework.org/schema/tx
+					http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+					http://www.springframework.org/schema/aop
+					http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+					http://www.springframework.org/schema/mvc
+					http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+					http://www.springframework.org/schema/task
+					http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+
+
+
+	<!-- springmvc的注解驱动 -->
+	<bean id="handlerMapping"
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" >
+		  <property name="interceptors">         
+     <list>         
+         <bean class="com.zc.base.interceptor.LoginInterceptor"></bean>        
+     </list>         
+ </property>  
+		</bean>
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+	  <property name="messageConverters">
+			<list>
+				<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+					<property name="supportedMediaTypes">
+						<list>
+							<value>
+								text/html;charset=UTF-8
+							</value>
+						</list>
+					</property>
+				</bean>
+				<!-- 启动JSON格式的配置 -->
+				<bean id="jacksonMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+					<!-- 解决 HttpMediaTypeNotAcceptableException: Could not find acceptable representation -->
+					<property name="supportedMediaTypes">
+						<list>
+							<value>application/json;charset=UTF-8</value>
+						</list>
+					</property>
+				</bean>
+			</list>
+		</property>
+	</bean>  
+	<!-- springmvc的扫描器 -->
+	<context:component-scan base-package="com.zc" />
+	<context:component-scan base-package="com.zc.rest"/> 
+	<!-- 基于注解的事物管理 -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	<mvc:default-servlet-handler />
+
+	<!-- 资源文件绑定器 -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="messages"></property>
+	</bean>
+
+	<!-- 多视图处理器 -->
+	<bean class="com.zc.base.action.MixedViewResolver">
+		<property name="resolvers">
+			<map>
+				<entry key="jsp">
+					<bean
+						class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+						p:prefix="/WEB-INF/view/" p:suffix=".jsp">
+					</bean>
+				</entry>
+					<entry key="html">
+					<bean
+						class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+						p:prefix="/WEB-INF/contract/" p:suffix=".html">
+					</bean>
+				</entry>
+				<entry key="ftl">
+					<bean
+						class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+						<property name="cache" value="true" />
+						<property name="contentType"
+							value="text/html;charset=UTF-8">
+						</property>
+						<!-- 宏命令的支持 -->
+						<property name="exposeSpringMacroHelpers"
+							value="true" />
+						<property name="viewClass"
+							value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+						<property name="requestContextAttribute"
+							value="rc">
+						</property>
+					</bean>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<!-- 注解请求映射 -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="byteArray_hmc" />
+				<ref bean="string_hmc" />
+				<ref bean="resource_hmc" />
+				<ref bean="source_hmc" />
+				<ref bean="xmlAwareForm_hmc" />
+				<ref bean="jaxb2RootElement_hmc" />
+				<ref bean="jackson_hmc" />
+			</list>
+		</property>
+	</bean>
+	<bean id="byteArray_hmc"
+		class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
+	<bean id="string_hmc"
+		class="org.springframework.http.converter.StringHttpMessageConverter" />
+	<bean id="resource_hmc"
+		class="org.springframework.http.converter.ResourceHttpMessageConverter" />
+	<bean id="source_hmc"
+		class="org.springframework.http.converter.xml.SourceHttpMessageConverter" />
+	<bean id="xmlAwareForm_hmc"
+		class="org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter" />
+	<bean id="jaxb2RootElement_hmc"
+		class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter" />
+	<bean id="jackson_hmc"
+		class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
+
+	<!-- 总错误处理 -->
+	<bean id="exceptionResolver"
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="defaultErrorView">
+			<value>error</value>
+		</property>
+		<!-- 定义异常处理页面用来获取异常信息的变量名，默认名为exception -->  
+      <property name="exceptionAttribute" value="ex"></property> 
+		<property name="defaultStatusCode">
+			<value>200</value>
+		</property>
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 日志记录某个方法花费时间
+		<aop:config>
+		<aop:aspect id="methodExecutionTimeAspect" ref="methodExecutionTime">
+		<aop:pointcut id="methodExecutionTimePointcut"
+		expression="(execution(* com.zc.base..*.*(..))) or (execution(* com.zc.service..*.*(..)))" />
+		<aop:around pointcut-ref="methodExecutionTimePointcut"
+		method="getMethodExecutionTime" />
+		</aop:aspect>
+		</aop:config> -->
+	
+	<!-- 
+	<mvc:interceptors>  
+         
+		<bean class="com.zc.base.interceptor.LoginInterceptor"></bean>
+    </mvc:interceptors> 
+     -->
+    <!--  -->
+	<mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
+     <mvc:resources location="/images/" mapping="/images/**"/>
+    <mvc:resources location="/Html/" mapping="/Html/**"/>
+    <mvc:resources location="/huodong/" mapping="/huodong/**"/>
+    <mvc:resources location="/ext-3.2.0/" mapping="/ext-3.2.0/**"/>
+     <mvc:resources location="/WEB-INF/" mapping="/WEB-INF/**"/>
+	 <bean id="loginInterceptor"
+		class="com.zc.base.interceptor.LoginInterceptor">
+	</bean>
+	<bean id="FunctionInterceptor"
+		class="com.zc.base.interceptor.FunctionInterceptor">
+	</bean>
+
+	<bean id="methodExecutionTime"
+		class="com.zc.base.aop.MethodExecutionTime">
+		<property name="maxRetries" value="1" />
+		<property name="order" value="1" />
+	</bean>
+	<!-- 方法重试 <aop:config> <aop:aspect id="concurrentOperationRetry" ref="concurrentOperationExecutor"> 
+		<aop:pointcut id="idempotentOperation" expression="execution(* com.zc.base.util.*.*(..))" 
+		/> <aop:around pointcut-ref="idempotentOperation" method="doConcurrentOperation" 
+		/> </aop:aspect> </aop:config> <bean id="concurrentOperationExecutor" class="com.zc.base.aop.ConcurrentOperationExecutor"> 
+		<property name="maxRetries" value="1" /> <property name="order" value="100" 
+		/> </bean> -->
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:config.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="dataSource" class="com.zc.base.datasourceConfig.myDruidDataSource"
+		init-method="init" destroy-method="close">
+	</bean>
+
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					${hibernate.dialect}
+				</prop>
+				<prop key="hibernate.show_sql">
+					${hibernate.show_sql}
+				</prop>
+				<prop key="hibernate.format_sql">
+					${hibernate.format_sql}
+				</prop>
+				<prop key="hibernate.hbm2ddl.auto">
+					${hibernate.hbm2ddl.auto}
+				</prop>
+				<prop key="hibernate.jdbc.batch_size">
+					${hibernate.jdbc.batch_size}
+				</prop>
+			</props>
+		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>com.zc</value>
+			</list>
+		</property>
+	</bean>
+
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+            <!-- 设置上传文件的最大尺寸为1000MB -->  
+        <property name="maxUploadSize">  
+            <value>1048576000</value>  
+        </property>  
+    </bean>  
+<!-- 定时器配置 
+    task:executor/@pool-size：可以指定执行线程池的初始大小、最大大小 
+    task:executor/@queue-capacity：等待执行的任务队列的容量 
+    task:executor/@rejection-policy：当等待队已满时的策略，分为丢弃、由任务执行器直接运行等方式 
+   -->
+    <task:scheduler id="scheduler" pool-size="10" />  
+    <task:executor id="executor" keep-alive="3600" pool-size="100-200" 
+    queue-capacity="500" rejection-policy="CALLER_RUNS" /> 
+    <task:annotation-driven executor="executor" scheduler="scheduler" />
+
+
+</beans>

@@ -1,0 +1,45 @@
+.admincp_r1{ width:800px; height:50px;  margin:0px auto; background:url(../images/admincp_r.png); line-height:50px; }
+.admincp_r1 span{ float:left; margin-left:35px; font-size:16px; font-weight:bold;}
+.admincp_r2{ width:800px;  margin:0px auto; font-size:18px; padding-bottom:30px;}
+.admincp_r2_name{ width:800px; height:60px; }
+.admincp_r2_name1{ width:150px; height:60px; float:left;line-height:60px; text-align:center;  }
+.admincp_r2_name2{ width:300px; height:60px; float:left;line-height:60px;}
+.admincp_r2_name3{ width:200px; height:40px; float:left; margin-top:10px; line-height:20px; font-size:14px; color:#999999;}
+
+.admincp_r2 input{ width:250px; height:40px; line-height:40px; font-size:18px; color:#999999; border:1px solid #999999; margin-top:10px;}
+.admincp_r2_name2 select{width:250px; height:40px; line-height:40px;margin-top:10px;border:1px solid #999999; background:#999999;}
+
+.admincp_r2_info{ width:800px; height:300px; }
+.admincp_r2_info1{ width:150px; height:300px; float:left;line-height:60px; text-align:center;  }
+.admincp_r2_info2{ width:600px; height:300px; float:left;}
+.admincp_r2_info3{ width:50px; height:300px; float:left;}
+.admincp_r2 textarea{ width:550px; height:280px;border:1px solid #999999; margin-top:10px; font-size:18px; color:#999999; line-height:20px;resize: none;}
+
+.admincp_r2_upload{ width:800px; height:60px; }
+.admincp_r2_upload1{ width:150px; height:60px; float:left;line-height:60px; text-align:center;  }
+.admincp_r2_upload2{ width:100px; height:60px; float:left;line-height:60px; }
+.admincp_r2_upload2 img{ margin-top:13px;}
+.admincp_r2_upload3{ width:200px; height:60px; float:left;line-height:60px; font-size:14px; color:#999999;}
+
+.admincp_r2_file{ width:800px; height:200px; }
+.admincp_r2_file1{ width:150px; height:200px; float:left;  }
+.admincp_r2_file1 input{ width:140px; height:40px;border:1px solid #999999;margin-top:60px; }
+.admincp_r2_file2{ width:650px; height:200px;  float:left;}
+.admincp_r2_file2_a{ width:650px; height:35px;  line-height:35px;}
+.admincp_r2_file2_a input{ width:250px; height:30px;border:1px solid #999999;margin-top:0px;}
+.admincp_r2_file2_a span{ margin-left:20px;}
+.admincp_r2_file2_b{ width:650px; height:115px; margin-top:10px; }
+
+.admincp_r2_file2_c{ width:120px; height:115px; float:left; margin-left:5px; text-align:center;}
+.admincp_r2_file2_c1{ width:120px; height:85px; background:#666666;}
+.admincp_r2_file2_c1 img{width:120px; height:85px;}
+.admincp_r2_file2_c2{ width:120px; height:30px; line-height:30px;  }
+.admincp_r2_file3{ width:50px;  float:left;}
+
+.admincp_r2_button {width:800px; height:60px;  line-height:60px; font-size:13px; }
+.admincp_r2_button1{ width:150px; height:60px; float:left; text-align:center; }
+.admincp_r2_button2{ width:300px; height:60px; float:left; }
+.admincp_r2_button2 img{ margin-top:5px;}
+.admincp_r2_button3{ width:350px; height:60px; float:left;}
+.admincp_r2_button input{ width:121px; height:50px; background:url(../images/button_next.png); border:none; color:#FFFFFF;}
+

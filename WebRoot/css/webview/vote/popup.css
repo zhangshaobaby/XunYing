@@ -1,0 +1,99 @@
+
+/*层大小*/
+.theme-popover,.theme-popover2,.theme-popover3,.theme-popover4,.theme-popover5,.theme-popover6,.theme-popover7{
+	width:80%;
+	z-index:99;
+	position:absolute;
+	top:20%;
+	left:10%;
+	border-radius:5px;
+	border:none;
+    color:#fff;
+	display:none;
+
+}
+.theme-popover8{
+	width:100%;
+	z-index:99;
+	position:absolute;
+	top:0%;
+	left:0%;
+	border-radius:5px;
+	border:none;
+    color:#fff;
+	display:none;
+
+}
+.theme-popover8 img.fenxiang{width:100%;}
+.theme-popover8 .close{width:10%;position:absolute;z-index:100;top:0px;left:0%;}
+
+.theme-popover .close{
+	float:right;
+	padding:5px;
+}
+.theme-tit img{width:100%}
+.theme-con h3{position:absolute;z-index:100;top:0px;left:25%;font-size:2em;font-weight:bold;}
+.theme-con .mes_con{width:90%;position:absolute;z-index:100;top:15%;left:10%;}
+.mes1l{width:40%;float:left;padding:2% 0px;}
+.mes1r{width:60%;float:left;padding:2% 0px;}
+
+.mes2{width:58%;overflow:hidden;float:left;word-break:break-all;word-wrap:break-word;padding-top:3%;}
+.mes_btn1{position:absolute;z-index:100;bottom:15%;right:10%;}
+.mes_btn2{position:absolute;z-index:100;bottom:34%;right:10%;}
+.theme-popover-mask{
+	z-index: 98;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none
+}
+/*女神很高兴*/
+.nv_btn1{position:absolute;z-index:100;top:0px;right:0;}
+.nv_btn2{position:absolute;z-index:100;top:46%;left:10%;width:30%;}
+.nv_btn2 img{width:100%;}
+.nv_btn3{position:absolute;z-index:100;top:46%;left:50%;width:30%;}
+.nv_btn3 img{width:100%;}
+/*分享*/
+.share_num{position:absolute;z-index:100;top:52%;left:20%;font-size:1em;}
+.share_btn1{position:absolute;z-index:100;top:75%;left:15%;width:30%;}
+.share_btn1 img{width:100%;}
+.share_btn2{position:absolute;z-index:100;top:75%;left:50%;width:30%;}
+.share_btn2 img{width:100%;}
+/*一键注册*/
+.zhuce_con{position:absolute;z-index:100;top:34%;left:0%;width:100%;height:60%}
+.zhuce_con1 li{float:left;width:50%;list-style-type:none;}
+.zhuce_con1 li img{width:100%;}
+.zhuce_con2{clear:both;}
+.zhuce_con2_l{display:none;}
+.zhuce_con2_r1{width:100%;height:30px;padding:0px 10%;}
+.zhuce_con2_r1 span{font-size:18px;line-height:18px;}
+.zhuce_con2_r1 input{width:60%;height:30px;border:none;border-bottom:1px solid #fff;background:none;color:#fff;}
+.zhuce_btn3{position:absolute;z-index:100;bottom:0%;left:10%;width:30%;}
+.zhuce_btn3 img{width:100%;}
+.zhuce_btn4{position:absolute;z-index:100;bottom:0%;right:10%;width:30%;}
+.zhuce_btn4 img{width:100%;}
+.zhuce_con2_l1{width:100%;height:30px;padding-left:10%;padding-top:2%;}
+.zhuce_con2_l1 span{font-size:18px;line-height:18px;}
+.zhuce_con2_l1 input{width:60%;height:30px;border:none;border-bottom:1px solid #fff;background:none;color:#fff;}
+/*发送密码*/
+.mima_btn3{position:absolute;z-index:100;bottom:20%;left:10%;width:30%;}
+.mima_btn3 img{width:100%;}
+.mima_btn4{position:absolute;z-index:100;bottom:20%;right:10%;width:30%;}
+.mima_btn4 img{width:100%;}
+<!--    验证码弹出层-->
+.yzm-con3{border:1px solid #f00;}
+.yzm_btn2{position:absolute;z-index:100;top:75%;left:50%;width:30%;}
+.yzm_btn2 img{width:100%;}
+.yzm_btn1{position:absolute;z-index:100;top:75%;left:10%;width:30%;}
+.yzm_btn1 img{width:100%;}
+.ph_num{position:absolute;z-index:100;top:41%;right:11%;font-size:1em;}
+.yzm_fasong img{position:absolute;z-index:100;top:61%;right:15%;order:1px solid #0f0;}
+.yzm_fasong input{width:35%;height:30px;border:none;position:absolute;z-index:100;top:61%;left:10%;}
+
+
+.nv_btn1_1{position:absolute;z-index:100;top:0px;left:0px;}

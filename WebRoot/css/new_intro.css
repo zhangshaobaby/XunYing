@@ -1,0 +1,42 @@
+*{margin:0px;padding:0px;}
+.new_intro{width:100%;background-color: #fff;}
+.new_intro img{border:0px;vertical-align: middle;}
+.new_intro1{width:1000px;margin:0px auto;}
+.new_intro1_1{margin:20px 0px;}
+.new_intro1_2{font-size: 14px;color:#727272;line-height: 20px;width:950px;margin-bottom: 20px;font-family:"黑体";line-height:23px;}
+.new_intro1_4{margin:40px 0px;}
+.new_intro1_5{margin-bottom: 80px;}
+.new_intro1_7{margin:50px 0px;width:957px;height:463px;background: url("../images/new_06.png") no-repeat;position: relative;}
+.new_intro1_7 a:link,.new_intro1_7 a:visited{color:#7cb9fd;text-decoration: none;font-size: 12px;font-weight: bold;}
+.new_intro1_7 a:hover{text-decoration:underline;}
+.new_intro1_7 .diao{position: relative;top:145px;left:220px;}
+.new_intro1_7 .xin{position: relative;top:145px;left:570px;}
+.new_intro1_7 .zi{position: relative;top:350px;left:95px;}
+.new_intro1_7 .jin{position: relative;top:340px;left:440px;}
+.new_intro1_9{height:540px;margin:20px 0px;position:relative;}
+.new_intro1_10{height:170px;margin-bottom: 95px;text-align: center;}
+.new_intro1_10 img{margin:40px 0px;}
+
+/*////轮播特效的样式*/
+#wrap_slide{width:1010px;height:255px;position:relative;}
+.slide_box ul{height:65px;padding:5px 0 15px 2px;list-style-type:none;}
+.slide_box li{height:65px; float:left;text-align:center;color:#555555;margin-right:1px;padding:0 1px;}
+.slide_box li a{text-decoration:none;padding:0 1px;color:#555555;height:65px;display:block;}
+.slide_box .li1 a{width:239px;background:url("../images/new_intro1.png") no-repeat;}
+.slide_box .li2 a{width:251px;background:url("../images/new_intro2.png") no-repeat;}
+.slide_box .li3 a{width:250px;background:url("../images/new_intro3.png") no-repeat;}
+.slide_box .li4 a{width:240px;background:url("../images/new_intro4.png") no-repeat;}
+
+.slide_box .li1 a.current{background:url("../images/new_intro01.png") no-repeat;}
+.slide_box .li2 a.current{background:url("../images/new_intro02.png") no-repeat;}
+.slide_box .li3 a.current{background:url("../images/new_intro03.png") no-repeat;}
+.slide_box .li4 a.current{background:url("../images/new_intro04.png") no-repeat;}
+
+#slide{width:598px;height:419px;overflow:hidden;position:absolute;margin-left:190px;margin-top:30px;}
+
+#slide div{text-decoration:none;display:block;width:598px;position:absolute;left:598px;}
+
+#previous{width:84px;height:166px;line-height:99em;overflow:hidden;background:url("../images/left.png");position:absolute;left:5px;top:200px;cursor:pointer;}
+*html #previous{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/left.png', sizingMethod='crop');}
+#next{width:84px;height:166px;line-height:99em;overflow:hidden;background:url("../images/right.png");position:absolute;right:20px;top:200px;cursor:pointer;}
+*html #next{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/right.png', sizingMethod='crop');}

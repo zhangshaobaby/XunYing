@@ -1,0 +1,29 @@
+.user_cont_rr{margin:0px auto;width:825px;}
+.user_cont_rrr{width:790px;margin:0px 15px 0px 15px;}
+.user_cont_r1{padding:25px 0px;}
+.user_cont_r1_l{float: left;margin-left:5px;}
+.user_cont_r1_l h3{font-size: 16px;color:#000;font-weight:bold;padding-bottom: 25px;}
+.user_cont_r1_l img{margin-right: 10px;}
+.user_cont_r1_l .user{margin:0px 35px;}
+.user_cont_r1_l .user .user_a,.user_cont_r1_r .a span{color:#ea4c59;}
+
+.user_cont_r1_l .user .user_c,.user_cont_r1_r .b span{color:#57f;}
+.user_cont_r1_l .san{color:#bbb;}
+.user_cont_r1_r{width:160px;height:84px;float: right;text-align: right; padding-right: 7px;}
+.user_cont_r1_r div{width:160px; height: 35px;line-height: 35px; border:1px solid #aaa; margin:0px 5px 5px 0px;padding-right: 5px;padding-bottom:3px;}
+
+.user_cont_r2_1,.user_cont_r3_1,.user_cont_r4_1{  height:50px; background: url("../images/pingtai1.png") no-repeat 0px 10px; line-height:50px;clear:both;}
+.user_cont_r2_1 span,.user_cont_r4_1 span{ float: left; margin-left:45px; font-size:16px; font-weight:bold;}
+.user_cont_r3_1 span{ float: left; margin-left:30px; font-size:16px; font-weight:bold;}
+.user_cont_r2_2{width:420px; text-align:center; font-size:14px;float:left;margin-left:6px;}
+.user_cont_r2_2 tr{height:45px;}
+.user_cont_r2_2 td{width:140px;}
+.user_cont_r2_2a1{text-align:left;}
+.user_cont_r2_2a2{text-align:right; padding-right:20px;}
+.user_cont_r2_2a3{text-align:left; }
+.user_cont_r2_2d  .user_cont_r2_2a3 span{color:#57f;}
+
+.user_cont_r2_3{float:right;width: 364px;height: 239px}
+.clear{clear:both;}
+
+

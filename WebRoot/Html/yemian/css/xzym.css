@@ -1,0 +1,28 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+.zaym{ text-align:center;}
+.top{ background:url(../images/02_01.gif) no-repeat; height:639px; width:100%;}
+
+.tp{ width:955px; height:auto; margin:0 auto; text-align:center; background:url(../images/01_03.gif) no-repeat; height:693px;}
+.xz{ width:257px; height:154px; float:right; margin-top:365px; margin-right:165px;}
+.tu{ margin-bottom:27px;}
+.db{ height:226px; width:100%; background:url(../images/02_01.gif) no-repeat;}
+
+.rwm{ width:697px; margin:0 auto; height:226px;}
+
+.rwm_t{ text-align:left; margin:50px 0; float:left;}
+.zt{ margin-left:20px; color:#fff; font-size:24px; float:right; margin-right:429px; margin-top:50px;}
+.dxz{ float:right; margin-top:40px; margin-right:25px;}
+.dxz a{ margin-left:10px; float:left;}
+.si{float:left;}
+.right{ float:right;}
+
+
+
+.zj_tu{ width:100%; height:auto; background:url(../images/03_02.png) no-repeat;}
+
+.zj_img{ width:100%; text-align:center; height:auto; margin:0 auto;}
+.zj_img img{ width:100%;}
+
+.zj_tu1{ width:100%; height:auto; background:url(../images/03_04.png) no-repeat;}
+.zj_tu2{ width:100%; height:auto; background:url(../images/03_05.png) no-repeat;}

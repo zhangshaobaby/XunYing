@@ -1,0 +1,32 @@
+body{font-size:12px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0;padding:0;}
+ul{ list-style-type:none;}
+a:link,a:visited{color:#666666; text-decoration:none;}
+a:hover{color:#666666; text-decoration:none;}
+img{border:0px;vertical-align:middle;}
+.opacity{opacity:0.5;filter:alpha(opacity=50)}
+
+/*头部开始*/
+.newtop{ width:100%;  height:124px;}
+.newtop1{ width:100%; height:38px; line-height:40px;border-bottom:1px solid #bcbbbb;background: #353131;color: #a4a3a3;}
+.newtop1 a{ text-decoration:none; color: #a4a3a3; font-size:13px;}
+.newtop1 a:hover{ text-decoration:none;}
+.newtop1_main{ width:1000px; height:38px; margin:0px auto; }
+.newtop1_main_l{  height:38px; float:left;}
+.newtop1_main_l span{margin-right: 15px;}
+.newtop1_main_l span.num{font-size: 20px;}
+.newtop1_main_r{ width:450px; height:38px; float:right; text-align:right;position:relative;}
+.newtop1_main_r span{color:#e50112;}
+.topemail_num{font-size:12px;color:#fff;position:absolute;top:-5px;right:4px;}
+.newtop2{width:1000px; height:86px; margin:0px auto;}
+.newtop2_l{width:380px; height:86px; float:left;}
+.newtop2_l img{margin-top:24px;}
+.newtop2_c{vertical-align: middle;}
+.newtop2_c ul li{ float:left; width:100px; height:86px; line-height:88px; font-size:16px;}
+.newtop2_c img{vertical-align:text-bottom;position:relative; top:15px;}
+.weibo_pop{position:relative;left:83%;display:none;z-index:33;}
+.weixin_pop{position:relative;left:89%;display:none;z-index:33;}
+.phone_login{position:relative;z-index:33;display:none;margin-left:270px;}
+.welcomeAhref a{ color: #e33340; }
+.welcomeAhref a:hover{text-decoration:underline;}
+.email_num{font-size:9px;color:#fff;position:absolute;top:-5px;right:2px;}

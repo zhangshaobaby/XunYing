@@ -1,0 +1,91 @@
+/* CSS Document */
+.allproduct{ width:1000px;  margin:0px auto;}
+.allproduct_dh{padding:10px 0px;}
+.allproduct_dh span{color:#e33340;}
+.product{background:#FFFFFF; border:1px solid #CCCCCC;}
+
+.product_cont{ width:940px; margin:20px auto;}
+.product_cont1_ll img{margin-right: 10px;width:21px;height:21px;}
+.product_cont1{ width:940px; height:500px; }
+.product_cont1_l{ width:520px; height:500px; float:left; }
+.product_cont1_l_1{ width:490px; height:60px; line-height:30px; font-size:22px; color:#e33340; font-weight:bold; text-align:center;}
+
+.product_cont1_l_2{ width:400px; height:125px; font-size:14px; text-align:left; margin-left:50px; border-bottom:1px dashed #CCCCCC;border-top:1px dashed #CCCCCC;}
+.product_cont1_l_2 table{ width:100%;margin:10px 0px;}
+.product_cont1_l_2 table tr{ height:35px;}
+.product_cont1_l_2 table .product_cont1_l_2a_r{text-align: right;color:#111;}
+
+.product_cont1_l_3{ width:400px; height:100px;font-size:14px; margin-left:50px;}
+.product_cont1_l_3a{ width:400px;margin:7px 0px;}
+.product_cont1_l_3b{width:90px;height:54px;line-height:27px; float:left;}
+.nian2{font-size:12px;width:295px;height:64px;background:url("../images/nian1_1.png") no-repeat;background-size:contain;position:relative;float:right;}
+.nian2_1 span{width: 55px;display: inline-block;text-align: center;}
+.product_cont1_l_9{ width:400px; height:60px; line-height:30px; font-size:14px; text-align:center;padding: 12px 0px 20px;margin-left:50px;}
+.product_cont1_l_9a{ width:130px;float:left;}
+
+.product_cont1_l_4{ width:400px; height:130px; font-size:14px; text-align:left; margin-left:50px; border-bottom:1px dashed #CCCCCC;border-top:1px dashed #CCCCCC;clear:both;}
+.product_cont1_l_4 table{ width:62%;float:right;margin:10px 0px;}
+.product_cont1_l_4 table tr{ height:35px;}
+.product_cont1_l_4 table .product_cont1_l_4a_r{text-align: right;}
+
+.product_cont1_r{ width:400px;height:410px; float:left; border:3px solid #f9d6d9;margin-top:30px; line-height:40px; font-size:14px;}
+.product_cont1_rd{ width:400px;height:200px; float:left; border:3px solid #f9d6d9;margin-top:30px;text-aligh:center;}
+.product_cont1_rd .font{font-size:20px;color:#e33340;font-weight:bold;padding:45px 0px 45px 70px;}
+.product_cont1_rd .img{margin-left:120px;}
+.product_cont1_rd .img2{margin-left:120px;width:149px;height:48px;background:url("../images/pro1_success.png") no-repeat;padding:13px 0px 0px 50px;font-size:16px;}
+.product_cont1_r_main{ width:360px; float:left; margin:0px 20px;}
+.product_cont1_r1{ width:340px; height:40px;}
+
+.product_cont1_r2{ width:340px;margin:2px 0;font-size:14px; text-align:left;border-bottom:1px dashed #CCCCCC;border-top:1px dashed #CCCCCC;}
+.product_cont1_r2 table{ width:100%;}
+.product_cont1_r2 table tr{ height:10px;}
+.product_cont1_r2 table .product_cont1_r_2a_r{text-align: right;}
+
+.product_cont1_r3{ width:340px;font-size:14px; text-align:left;}
+.product_cont1_r3 table{ width:100%;}
+.product_cont1_r3 table tr{ height:35px;}
+.product_cont1_r3 table .product_cont1_r_3a_r{text-align: right;}
+.product_cont1_r_3a_l{width:90px;}
+.product_cont1_r_3a_r input.touzi{width:210px;height:20px;margin-right: 10px;}
+.product_cont1_r_3a_r img.btn{padding-left: 10px;}
+.product_cont1_r_3a_r input.yanzhengma{width:80px;height:20px;}
+.product_cont1_r_3a_r img.yzm{margin:0px 5px;}
+.product_cont1_r3 a{ color:#2571be; text-decoration:none;}
+
+.product_cont1_r5{ width:300px; height:40px; line-height:40px; }
+.product_cont1_r5 a{ color:#2571be;}
+.product_cont1_r6{text-align: center;}
+
+
+
+.product_cont1_r_main1{ width:300px; float:left; margin-left:60px;}
+.product_cont1_r_button1{ width:305px; height:54px; margin:0px auto;}
+.product_cont1_r_button1 input{ width:305px; height:54px; background:url(../images/button_huikuan.png) no-repeat; border:0px; font-size:22px; color:#666666;}
+
+
+.product_cont2{ width:940px;  }
+.product_cont2_menu{ width:940px; height:45px; font-size:20px;}
+
+.product_cont2_menu ul li{float:left; width:235px; height:45px; line-height:45px; text-align:center; display:block; background:url("../images/product10.png") no-repeat;}
+.product_cont2_menu1{ float:left; width:235px; height:45px; line-height:45px; text-align:center; display:block; }
+.product_cont2_menu2 a:link,.product_cont2_menu2 a:visited{ display:block; text-decoration:none; color:#fff;background: url("../images/product9.png") no-repeat;}
+.product_cont2_menu a{display:block;}
+.product_cont2_menu a:hover{display:block; background: url("../images/product9_1.png") no-repeat;color:#fff;}
+
+
+.product_cont2_cont{ min-height:240px;width:940px; height:auto; line-height:30px; font-size:16px; margin-top:10px;}
+.product_cont2_cont h4{ width:940px; height:40px; line-height:40px; }
+
+.product_cont2_nocont{ display:none;}
+.hetong{float:left;}
+.hetong .text{text-align: center;color:#2571be;font-size: 12px;}
+.product_table{width:100%;text-align: center;font-size: 14px;}
+.product_table tr{height:40px;}
+.product_table th{background-color: #eee;}
+.user_cont_r_2d{float:right;font-size: 12px;}
+/*控制进度圈的样式*/
+.product_cont1_l_6_a{ width:130px; height:130px; float:left;position:relative;margin:15px 0px;}
+.product_cont1_l_6_a1{position:absolute;width:100px;height:50px; top:30px; left:0;text-align:center;line-height:25px;  font-size:15px; color:#ea4c59; }
+
+.product_cont1_l_9{ width:400px; height:60px; line-height:30px; font-size:14px; text-align:center;padding: 12px 0px 20px;margin-left:50px;}
+.product_cont1_l_9a{ width:130px;float:left;}

@@ -1,0 +1,18 @@
+body{font-size:12px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0;padding:0;}
+ul{ list-style-type:none;}
+img{border:0px;vertical-align:middle;}
+.opacity{opacity:0.5;filter:alpha(opacity=50)}
+
+
+/*底部开始*/
+.bottom{ width:100%; background: #353131;color: #bebebe;font-size:14px;padding-bottom: 15px;text-align:center;}
+.bottom1{ width:1000px; margin:0px auto;text-align: center;}
+
+.bottom1_t ul{padding:25px 0px 0px 0px;margin-left:300px;}
+.bottom1_t ul li{ float:left;  text-align:center;margin-right: 20px;}
+.bottom1_b{margin:30px 0px 0px 0px;padding:10px 0px 0px 0px;clear:both;}
+.bottom1_b a:link,.bottom1_b a:visited{color:#038cee; text-decoration:none;}
+.bottom1_b a:hover{text-decoration:underline;}
+
+

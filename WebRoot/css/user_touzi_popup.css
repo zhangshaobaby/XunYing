@@ -1,0 +1,233 @@
+
+/*层大小*/
+.theme-popover{
+	z-index:9999;
+	position:fixed;
+	font-size:14px;
+	top:40%;
+	left:50%;
+	width:480px;
+	margin:-200px 0 0 -330px;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-popover2{
+	z-index:9999;
+	position:fixed;
+	top:35%;
+	left:50%;
+	width:480px;
+	margin:-180px 0 0 -330px;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-poptit,.theme-poptit2 {
+	padding:12px;
+	position: relative;
+
+}
+.theme-poptit h3,.theme-poptit2 h3{
+	float:left;
+font-size:16px;
+padding-left:40px;
+width:365px;
+height:50px; background:url("../images/user_cont_r.png") no-repeat; line-height:50px;
+}
+
+.theme-poptit .close,.theme-poptit2 .close{
+	float:right;
+	color:#8aaecf;
+	padding:5px;
+	height:35px; line-height:35px;vertical-aligh:middle;
+
+font-size:12px;
+}
+.pop_middle{
+	clear:both;
+	width:440px;
+	margin:0px auto;
+	
+}
+.pop_middle td{
+height:25px;}
+.nian1{margin-left:25px;}
+.nian2{font-size:12px;width:373px;height:58px;background:url("../images/nian1.png") no-repeat;margin-left:45px;position:relative;}
+.nian3{font-size:12px;float:right;display:inline-block;margin-right:20px;}
+.pop1_ts{color:#353131;font-weight:bold;clear:both;padding:10px 22px;}
+.pop1_mm{margin:10px 22px;}
+.pop1_mm input.pwd{margin-left:140px;width:123px;height:30px;}
+.pop1_footer{margin-bottom:30px;}
+.pop1_footer .tj{margin-left:80px;}
+.pop1_footer .qx{margin-left:60px;}
+.pop_middle2{
+	clear:both;
+	width:440px;
+	margin:0px auto;
+}
+.pop_middle table,.pop_middle2 table.pop_middle2_top{
+	text-align:left;
+	width:390px;
+	margin:0px auto;
+}
+
+.pop_middle2 table.pop_middle2_bom{
+	text-aligh:center;
+	width:440px;
+	margin:0px auto;
+	}
+.pop_middle2 table.pop_middle2_bom tr{
+	height:30px;
+	}
+
+.color_hui{background:#f6f6f6;}
+.pop_middle2 table.pop_middle2_top tr{
+	height:30px;
+	}
+.pop_middle2 table.pop_middle2_top{margin-bottom:20px;}
+.pop_middle2 table.pop_middle2_bom span{
+	color:#e33340;
+	}
+.pop_middle table span{
+color:#353434;
+}
+
+.pop_middle table input{
+width:120px;
+height:30px;
+}
+
+.theme-popover-mask,.theme-popover-mask2 {
+	z-index: 9998;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none
+}
+/*产品转让*/
+.theme-popover-zhrang{
+	z-index:9999;
+	position:fixed;
+	font-size:14px;
+	top:2%;
+	left:5%;
+	width:735px;
+	max-height:558px;
+	overflow-y:auto;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-popover-mask-zhrang {
+	z-index: 9998;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none;
+	
+}
+.theme-poptit-zhrang{
+	height:61px;
+background:url("../images/zhrang_pop1.png") no-repeat 30px 20px;; line-height:50px;
+}
+.theme-poptit-zhrang .close{
+	float:right;
+	color:#8aaecf;
+	padding-top:15px;
+	padding-right:34px;
+	height:35px; line-height:35px;vertical-aligh:middle;
+font-size:12px;
+}
+.zhrang_con{width:666px;margin:0px auto;}
+.zhrang_step1b h3{font-size:16px;margin:16px 0px;}
+.zhrang_step1b table{width:100%;font-size:14px;color:#979797;text-align:center;}
+.zhrang_step1b table tr{height:40px;}
+.hei{color:#4d4d4d;}
+.zhrang_step1c h3{font-size:16px;margin:16px 0px;}
+.zhrang_step1c table{width:100%;font-size:14px;color:#979797;text-align:center;}
+.zhrang_step1c table tr{height:40px;}
+.zhrang_step1cm{text-align:right;color:#4d4d4d;}
+.zhrang_step1cr{text-align:left;padding-left:10px;}
+.zhrang_step1d{margin:20px auto;text-align:center;}
+.zhrang_btn{width:140px;height:40px;line-height:40px;background:#e33340;text-align:center;color:#fff;cursor:pointer;margin:0px auto;}
+/*产品转让第二步*/
+.zhrang_step2{display:none;}
+.zhrang_step2b h3{font-size:14px;color:#0060a5;margin:10px 0px 5px 0px;}
+.zhrang_step2_ifr{height:104px;border:1px solid #aaa; overflow-y:scroll;}
+/*产品转让第三步*/
+.zhrang_step3{display:none;}
+.step3_input{width:150px;height:25px;line-height:25px;}
+.zhrang_step3b table{width:100%;text-align:center;margin:50px 0px;}
+.zhrang_step3br{margin-top:3px;}
+.zhrang_step3bl{text-align:right;padding-right:20px;width:40%;}
+.zhrang_step3br{text-align:left;width:60%;}
+/*产品转让第四步*/
+.zhrang_step4{display:none;}
+.zhrang_step4b{height:200px;line-height:200px;text-align:center;font-size:24px;font-weight:bold;color:#e33340;}
+/*产品转让确定弹出层*/
+.theme-popover-zhrangsure{
+	z-index:99999;
+	position:fixed;
+	font-size:14px;
+	top:40%;
+	left:50%;
+	width:430px;
+	margin:-200px 0 0 -200px;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-popover-mask-zhrangsure {
+	z-index: 99998;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none;
+	
+}
+.theme-poptit-zhrangsure h3{
+	float:left;
+font-size:16px;
+padding-left:30px;
+width:335px;
+height:50px; background:url("../images/user_cont_r.png") no-repeat; line-height:50px;
+}
+.theme-poptit-zhrangsure .close{
+	float:right;
+	color:#8aaecf;
+font-size:12px;
+margin-top:15px;
+margin-right:5px;
+}
+.zhrang_step1c_sure table{width:410px;margin-left:18px;font-size:14px;color:#979797;text-align:center;clear:both;}
+.zhrang_step1c_sure table tr{height:40px;}
+.zhrang_step1_surel{text-align:left;}
+.zhrang_step1_surem{text-align:right;color:#4d4d4d;}
+.zhrang_step1_surer{text-align:left;}
+
+.yan{width:80px;height:30px;line-height:30px;font-size: 12px;background: #0060a5;color:#fff;display:inline-block;border:none;text-align: center;margin-left:10px;}
+.refa{width:80px;height:30px;line-height:30px;font-size: 12px;background: #eee;border:none;text-align: center;display:inline-block;margin-left:10px;}

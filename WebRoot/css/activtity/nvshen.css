@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body{font-size:12px; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+ul{ list-style-type:none;}
+a{text-decoration:none;}
+img{border:0px;vertical-align:middle;}
+/*第一版*/
+.page1{width:100%;background: #f3c41f url(../../images/activityvote/pc/bg1.png) no-repeat;background-size:contain;height:768px;}
+.page1_con{width:1002px;position:relative;left:50%;margin-left:-501px;}
+.page1_con1{position:relative; }
+.page1_con1 .piaozi{position:absolute;top:149px;left:20px;}
+.page1_con1 .nshen{position:absolute;top:149px;right:39px;}
+.page1_con2{margin-left:-10px;}
+/*第二版*/
+.page2{width:100%;background: #d6353f url(../../images/activityvote/pc/bg2.png) no-repeat;background-size:contain;height:768px;}
+.page2_con{width:1002px;position:relative;left:50%;margin-left:-501px;}
+.page2_con1{text-align:center;margin:0px auto;width:403px;cursor:pointer;}
+.page2_con2 {height:170px;margin:87px 0px;}
+.page2_con2 .btn1{width:170px;height:170px;background:url(../../images/activityvote/pc/btn1.png) no-repeat;float:left;position:relative;}
+.page2_con2 .btn1 span{width:105px;height:38px;text-align:center;position:absolute;top:45px;left:30px;color:#fff;font-weight:bold;font-size:28px;}
+.page2_con2 .btn2{float:left;margin-left:110px;}
+.page2_con2 .btn3{float:left;margin-left:110px;}
+.page2_con2 .btn4{width:170px;height:170px;background:url(../../images/activityvote/pc/btn4.png) no-repeat;float:right;position:relative;}
+.page2_con2 .btn4 span{width:105px;height:38px;text-align:center;position:absolute;top:45px;left:30px;color:#fff;font-weight:bold;font-size:28px;}
+.page2_con3{clear:both;}
+
+
+
+/*第三版*/
+.page3{width:100%;background: #f3c41f url(../../images/activityvote/pc/bg3.png) no-repeat;background-size:contain;color:#fff;}
+.page3_con{width:1002px;position:relative;left:50%;margin-left:-501px;padding:30px 0px;}
+.gai{position:absolute;z-index:2;top:0px;left:-53px;}
+.page3_con1{width:100%; text-align:left;margin-top:53px;}
+.page3_con1 .girl{width:494px;height:183px;}
+.girl_mes{width:490px;height:183px;background:url(../../images/activityvote/pc/bg_tou.png);margin-top:-183px;position:absolute; z-index:22; visibility:hidden; }
+.girl_mes1{width:394px;margin:0px auto;margin-top:10px;}
+.girl_mes1 td{width:197px;font-size:14px;height:30px;line-height:15px; overflow:hidden;}
+.girl_con{width:444px;height:65px;background:#ad8b1e;padding:10px 25px;}
+.girl_con1l{float:left;font-size:22px;margin-bottom:10px;}
+.girl_con1r{float:right;font-size:18px;}
+.girl_con2{clear:both;font-size:14px;width:342px;height:57px;overflow:hidden;}
+.page3_2{width:100%;}
+.page3_2 img{width:100%;}
+/*第四版*/
+.page4{width:100%;background: #d6353f;}
+.page4 img{width:100%;}
+.main6{width:100%;height:180px;background-color: #e33340;color:#fff;font-size: 16px;}
+.main6_1{ width:1000px; margin:0 auto; padding:10px 0px;}
+.main6_1 table{width:100%;}
+.main4 .jigou td{padding-bottom:10px;}
+.main6_1 table td{padding-bottom:10px;}
+.main6_1 table td.l1{width:35%;}
+.main6_1 table td.m1{width:35%;}
+.main6_1 table td.r1{width:30%;}
+
+.yan{width:60px;height:35px;line-height:35px;font-size: 12px;background: #0060a5;color:#fff;float:left;margin-right: 10px;border:none;margin-top: 10px;text-align: center}
+.refa{width:60px;height:35px;line-height:35px;font-size: 12px;background: #eee;float:left;margin-right: 10px;border:none;margin-top: 10px;text-align: center}
+
+  

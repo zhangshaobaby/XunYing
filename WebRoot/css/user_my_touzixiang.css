@@ -1,0 +1,66 @@
+body{font-size:12px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0;padding:0;}
+ul{ list-style-type:none;}
+img{border:0px;vertical-align:middle;}
+a{text-decoration:none;color:#666666;}
+
+.user_cont_rr{margin:0px auto;width:825px;}
+.user_cont_rrr{width:785px;margin:0px 15px 0px 10px;}
+.user_cont_r_1{  height:50px; background:url("../images/user_cont_r.png") no-repeat; line-height:50px;}
+.user_cont_r_1 span{ float: left; margin-left:40px; font-size:18px; font-weight:bold;}
+
+
+.user_cont_r_2{  height:90px;}
+
+.user_cont_r_2a{ width:780px; height:290px; line-height:30px;float:left;margin-left:10px;color:#000;padding-bottom:10px;background:url("../images/dashed.png") repeat-x bottom;}
+.user_cont_r_2al{width:280px;float:left;}
+.user_cont_r_2al h3{font-size:16px;margin:20px 0px;}
+.table1{width:100%;font-size:14px;}
+.table1l{text-align: left;color:#898989;}
+.table1r{text-align:right;}
+.user_cont_r_2ar{width:300px;float: right;color:#898989;font-size:14px;}
+.user_cout_r_2ar1 img{margin:15px 0px 10px;}
+.user_cout_r_2ar4{float:right;font-size:12px;}
+.user_cont_r_2a1{ width:300px; height:30px;margin:10px 0px 10px 8px; line-height:30px;float:left;}
+.user_cont_r_2a1 li{float:left; width:70px; display:inline; margin-right:14px;font-size: 14px;font-weight:bold;text-align:center;}
+.sel{
+	background:url("../images/button_01.png") no-repeat;;
+	}
+.sel a{
+	width:70; display:block;color:#FFFFFF;
+	}
+
+.user_cont_r_2b{ width:90px;height:32px;background:url("../images/tuijian1.png") no-repeat;float:right;margin:10px 0px;color:#fff;padding-top:7px;padding-left:10px;cursor:pointer;}
+.user_cont_r_2b a:hover{color:#fff;}
+.user_cont_r_2bc{ width:90px;height:32px;background:url("../images/tuijiangr.png") no-repeat;float:right;margin:10px 0px;color:#fff;padding-top:7px;padding-left:10px;}
+
+.tab_gg a:hover{color:#0060a5; text-decoration:underline;}
+.tables{clear:both;}
+.user_cont_r_3,user_cont_r_31{ text-align:center; clear:both;}
+.user_cont_r_31{display:block;}
+.user_cont_r_3{display:none;}
+.user_cont_r_3 table,.user_cont_r_31 table{width:775px; text-align:center;margin-left:10px;}
+.user_cont_r_3 table tr,.user_cont_r_31 table tr{height:60px;}
+.user_cont_r_t_3c2{width:200px;}
+.user_cont_r_3b .tittle{background-color:#f6f6f6;}
+.user_cont_r_3c .user_cont_r_x_3c3 a{color:#2155CF;}
+.user_cont_r_3b6{padding-right:5px;}
+.user_cont_r_t_3c6{padding-right:5px;}
+
+.user_cont_r_2d{  height:60px; margin:10px 0px 20px 0px; text-align:right;  line-height:60px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

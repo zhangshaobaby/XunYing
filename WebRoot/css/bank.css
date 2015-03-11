@@ -1,0 +1,16 @@
+body{font-size:13px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0;padding:0;}
+.user_cont_rr{margin:0px auto;width:825px;height:650px;}
+.user_cont_rrr{width:805px;margin:0px 15px 0px 10px;}
+.user_cont_r_1{  height:50px; background:url("../images/user_cont_r.png") no-repeat; line-height:50px;}
+.user_cont_r_1 span{ float: left; margin-left:45px; font-size:16px; font-weight:bold;}
+
+.user_cont_r_2{width:380px;height:245px;border:1px solid #ccc;margin:10px 20px 30px 40px;}
+.user_cont_r_2a{height:140px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin-top:48px;}
+.user_cont_r_2a img{margin:50px 0px 0px 110px;border:0px;}
+
+
+.user_cont_r_3 table{width:805px; text-align:center;margin-rihgt:10px;}.user_cont_r_3 table tr{height:50px;}
+.user_cont_r_3b .tittle{background-color:#f6f6f6;}
+.user_cont_r_3c .user_cont_r_x_3c3 a{color:#2155CF;}
+

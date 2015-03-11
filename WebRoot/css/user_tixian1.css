@@ -1,0 +1,32 @@
+.user_cont_rr{margin:0px auto;width:1000px;background:#FFFFFF;}
+
+.user_cont_rrr{width:945px;margin:0px 25px 0px 25px;}
+.user_cont_r_1{height:50px; background:url("../images/pingtai1.png") no-repeat 0px 13px; line-height:50px;}
+.user_cont_r_1 span{ float: left; margin-left:50px; font-size:20px; font-weight:bold;}
+
+.user_cont_r_2{  height:40px;font-size:12px;}
+.user_cont_r_2 .bang{font-size:14px;}
+.user_cont_r_2 .name{margin:0px 5px 0px 10px;color:#aaa;}
+.user_cont_r_2 .num{color:#aaa;}
+.yzm01{padding:5px;background-color:#0060a5;margin-right:10px;color:#fff;}
+.yan{padding:5px;font-size: 12px;background: #0060a5;color:#fff;border:none;text-align: center}
+.refa{padding:5px;font-size: 12px;background: #eee;border:none;text-align: center}
+
+
+.user_cont_r_7{margin-left: 133px;margin-top: 20px;}
+.user_cont_r_7 input{width:130px;height:30px;color:#fff;background:#e33340;border:none;}
+
+.user_cont_r_8{padding:20px;border-top: 1px dashed #aaa;margin-top: 25px;margin-right:20px;}
+.user_cont_r_8 .con{margin:10px 0px 20px 20px;line-height: 25px;}
+.user_cont_r_8 a{color:#0060a5;}
+.tixian1_1{padding: 20px 0px;border-top: 1px dashed #aaa;margin-top: 20px;margin-right:20px;}
+.tixian1_2{color:#333;width:98%;margin:0px auto;}
+.tixian1_2 td{padding: 10px 5px;}
+.tixian1_2 td.tx_l{text-align: right;width:12%;}
+.tixian1_2 td.tx_r{width:88%;}
+
+.tixian1_2 input{width:130px;height:25px;border:1px solid #aaa;margin-right: 5px;}
+.tixian1_2 img{margin-right: 10px;margin-top:8px;}
+
+.pop_middle .check{padding:0px 20px;}
+.pop_middle img.yh{text-align:center;margin-right:40px;}

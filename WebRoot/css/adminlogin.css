@@ -1,0 +1,50 @@
+/* CSS Document */
+body{font-size:13px; background:url(../images/login_bg.png); color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0}
+a:link,a:visited{color:#666666; text-decoration:none;}
+a:hover{color:#666666; text-decoration:underline;}
+img{border:0px;}
+
+#login{ width:800px; height:350px; margin:0px auto; margin-top:150px; background:rgba(255,255,255,0.2) none repeat scroll 0 0 !important;filter:Alpha(opacity=20);background:#FFFFFF;color:#FFFFFF;font-size:16px;  }
+
+#login_title{ width:800px; height:58px; background:#FFFFFF; position:absolute; top:115px; background:url(../images/login_title.png) center; text-align:center; font-size:30px; color:#4c1313; line-height:58px; font-weight:bold;}
+
+
+
+.login_cont{ width:600px; height:320px; margin:0px auto; padding-top:30px;   }
+.login_cont_name{ width:600px; height:60px; position:relative; }
+.login_cont_name1{ width:150px; height:60px; float:left;line-height:60px; text-align:center; }
+.login_cont_name2{ width:300px; height:60px; float:left;line-height:60px;}
+.login_cont_name3{ width:150px; height:60px; float:left;line-height:60px; line-height:60px; font-size:14px;}
+
+
+.login_cont input{ width:250px; height:35px; line-height:35px; font-size:18px; color:#999999; border:1px solid #999999;border-radius:5px; margin-top:15px;}
+
+.login_cont_pass{ width:600px; height:60px; position:relative; }
+.login_cont_pass1{ width:150px; height:60px; float:left;line-height:60px; text-align:center; }
+.login_cont_pass2{ width:300px; height:60px; float:left;line-height:60px;}
+.login_cont_pass3{ width:150px; height:40px; float:left; margin-top:10px; line-height:20px; font-size:14px; }
+
+
+.login_cont_yanzheng{ width:600px; height:60px; position:relative; }
+.login_cont_yanzheng1{ width:150px; height:60px; float:left;line-height:60px; text-align:center;}
+.login_cont_yanzheng2{ width:150px; height:60px; float:left;line-height:60px;}
+.login_cont_yanzheng3{ width:300px; height:60px; float:left; line-height:60px;   font-size:14px; color:#999999;}
+.login_cont_yanzheng3 img{ vertical-align:middle;}
+.login_cont_yanzheng3 a{ color:#FFFFFF;}
+.login_cont_yanzheng input{ width:100px; height:35px; line-height:35px; font-size:18px; color:#999999; border:1px solid #999999;border-radius:5px; margin-top:15px;}
+
+
+.login_cont_agree {width:600px; height:40px;  line-height:40px; font-size:13px;position:relative; }
+.login_cont_agree1{ width:150px; height:40px; float:left; text-align:center; }
+.login_cont_agree2{ width:300px; height:40px; float:left; }
+.login_cont_agree3{ width:150px; height:40px; float:left;}
+
+.login_cont_agree input{ width:20px; height:20px;border:none;border-radius:0; font-size:12px; color:#dedede; }
+.login_cont_agree a{ color:#FFFFFF;}
+
+.login_cont_button {width:600px; height:60px;  line-height:60px; font-size:13px;position:relative;  }
+.login_cont_button1{ width:150px; height:60px; float:left; text-align:center; }
+.login_cont_button2{ width:300px; height:60px; float:left; }
+.login_cont_button3{ width:150px; height:60px;  float:left; }
+.login_cont_button input{ width:125px; height:50px; background:url(../images/button_next.png) no-repeat; border:none; color:#FFFFFF;}

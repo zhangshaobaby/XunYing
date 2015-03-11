@@ -1,0 +1,135 @@
+
+img {
+	border:0
+}
+a:focus {
+	outline:none
+}
+
+
+
+
+*[hidden] {
+	display:none
+}
+.clearfix:after, .central:after, .widget ul:after, .paging:after, .pagenav:after, .base-tit:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix, .central, .widget ul, .paging, .pagenav, .base-tit {
+*+height:1%;
+}
+
+/*window*/
+
+
+.theme-buy {
+	margin-top:10%;
+	text-align: center;
+}
+.theme-gobuy, .theme-signin {
+	font-size: 15px;
+}
+
+
+/*层大小*/
+.theme-popover{
+	z-index:9999;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:480px;
+	margin:-180px 0 0 -330px;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-popover2{
+	z-index:9999;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:480px;
+	margin:-180px 0 0 -330px;
+	border-radius:5px;
+	border:solid 2px #666;
+	background-color:#fff;
+	display:none;
+	box-shadow: 0 0 10px #666;
+}
+.theme-poptit,.theme-poptit2 {
+	padding:12px;
+	position: relative;
+
+}
+.pop_middle_1{font-size:14px;margin:0px 0px 10px 0px;color:#353131;}
+.pop_middle_2{margin:0px 0px 10px 0px;float:right;}
+
+.theme-poptit h3,.theme-poptit2 h3{
+	float:left;
+font-size:16px;
+padding-left:40px;
+width:365px;
+height:50px; background:url("../images/user_cont_r.png") no-repeat; line-height:50px;
+}
+
+.theme-poptit .close,.theme-poptit2 .close{
+	float:right;
+	color:#8aaecf;
+	padding:5px;
+	height:35px; line-height:35px;vertical-aligh:middle;
+
+font-size:12px;
+}
+.pop_middle,.pop_middle2{
+	clear:both;
+	width:400px;
+	margin:0px auto;
+}
+.pop_middle table,.pop_middle2 table.pop_middle2_top{
+	text-align:left;
+	width:390px;
+	margin:0px auto;
+}
+.pop_middle2 table.pop_middle2_bom{
+	text-aligh:center;
+	width:390px;
+	margin:0px auto;
+	}
+.pop_middle2 table.pop_middle2_bom tr{
+	height:30px;
+	}
+.pop_middle2 table.pop_middle2_bom th{
+	background:#eee;
+	}
+.pop_middle2 table.pop_middle2_bom span{
+	color:#e33340;
+	}
+.pop_middle table span{
+color:#353434;
+}
+
+.pop_middle table input{
+width:120px;
+height:30px;
+}
+.pop_middle img.tj{
+	padding:0px 0px 20px 140px;
+}
+.theme-popover-mask,.theme-popover-mask2 {
+	z-index: 9998;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none
+}

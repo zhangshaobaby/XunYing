@@ -1,0 +1,21 @@
+body{font-size:13px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0px;padding: 0px;}
+.login a:link,.login a:visited{color:#0060A5;text-decoration:none;}
+.login{ width:1000px;margin:0px auto;}
+.login1{padding:10px 0px;}
+.login1 span{color:#e33340;}
+.login2{border:1px solid #ccc;background-color: #fff;height:455px;}
+.login2_1 h3{background: url("../images/login2_01.png") no-repeat;width:430px;height:40px;padding-left: 25px;padding-top:8px;font-size: 16px;font-weight: bold;margin-left: 30px;}
+.loginl{width:305px;height:280px;margin-left: 60px;margin-top: 30px;}
+.username{width:264px;height:40px;border:1px solid #aaa;background: url("../images/login2_02.png") no-repeat;color:#aaa;padding-left: 35px;float:left;line-height:40px;}
+.pwd{width:264px;height:40px;border:1px solid #aaa;background: url("../images/login2_03.png") no-repeat;color:#aaa;padding-left: 35px;margin:20px 0px;float:left;line-height:40px;}
+.login2_13 .check{width:15px;height:15px;margin-right: 10px;}
+.login2_14{margin:20px 0px;}
+
+
+
+.login2_1{width:515px;height:385px;float:left;padding:10px 0px;}
+.login2_2{ width:180px; height:258px; float:left;margin-top: 90px;margin-right: 60px;}
+
+.login2_21{height:116px;}
+.login2_22,.login2_23{ height:30px;letter-spacing:2px;}

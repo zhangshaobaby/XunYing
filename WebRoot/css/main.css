@@ -1,0 +1,81 @@
+body{font-size:12px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0;padding:0;}
+ul{ list-style-type:none;}
+a:link,a:visited{color:#666666; text-decoration:none;}
+a:hover{color:#666666; text-decoration:none;}
+img{border:0px;vertical-align:middle;}
+.opacity{opacity:0.5;filter:alpha(opacity=50)}
+
+/*头部开始*/
+.top{ width:100%;height:107px;border:1px solid #0f0;}
+.top1{ width:100%; height:38px; line-height:40px;border-bottom:1px solid #bcbbbb;background: #353131;color: #a4a3a3;}
+.top1 a{ text-decoration:none; color: #a4a3a3; font-size:13px;}
+.top1 a:hover{ text-decoration:none;}
+
+.top1 a.under{ color: #e33340; }
+.top1 a.under:hover{text-decoration:underline;}
+
+.top1_main{ width:1000px; height:38px; margin:0px auto; border:1px solid #f00;}
+.top1_main_l{  height:25px; float:left;}
+.top1_main_l span{margin-right: 15px;height:20px;}
+.top1_main_l span.num{font-size: 20px;}
+.top1_main_r{ width:450px; height:38px; float:right; text-align:right;position:relative;}
+.email_num{font-size:12px;color:#fff;position:absolute;top:-5px;right:4px;}
+.top1_main_r span{color:#e50112;}
+.top2{width:1000px; height:96px; margin:0px auto;}
+.top2_l{width:380px; height:86px; float:left;}
+.top2_c{vertical-align: middle;}
+.top2_c ul li{ float:left; width:100px; height:18px; line-height:68px; font-size:16px;}
+.top2_c img{position:relative; top:20%;}
+.weibo_pop{position:relative;left:83%;display:none;z-index:33;}
+.weixin_pop{position:relative;left:89%;display:none;z-index:33;}
+.phone_login{position:relative;z-index:33;display:none;margin-left:270px;}
+/*用户部分开始*/
+.user{ width:1000px;margin:0px auto;}
+.user_cont{ width:165px;  float:left;background:#FFFFFF;min-height:700px;}
+.user_cont_l_2{ width:165px;  font-size:14px; text-align:center;}
+.user_cont_l_2b{ width:165px; line-height:40px; color:#ea4c59; }
+.user_cont_l_2b ul li{ width:165px; height:40px; text-align:center;  }
+
+
+
+
+.user_cont_l_2b ul .li_1_h{background:#ea4c59; }
+.user_cont_l_2b ul  a .li_1_h{ width:165px; height:40px; display:block;color:#FFFFFF;}
+
+
+.user_cont_l_2b ul .li_2_h{background:#ea4c59; }
+.user_cont_l_2b ul a .li_2_h { width:165px; height:40px; display:block;color:#FFFFFF;}
+
+
+.user_cont_l_2b ul .li_3_h{background:#ea4c59; }
+.user_cont_l_2b ul a  .li_3_h{ width:165px; height:40px; display:block;color:#FFFFFF;}
+
+.user_cont_l_2b ul .li_4_h{background:#ea4c59; }
+.user_cont_l_2b ul a  .li_4_h{ width:165px; height:40px; display:block;color:#FFFFFF;}
+
+
+.user_cont_l_2b ul .li_5_h{background:#ea4c59; }
+.user_cont_l_2b ul  a .li_5_h{ width:165px; height:40px; display:block;color:#FFFFFF;}
+
+
+.user_cont_l_2b ul .li_6_h{background:#ea4c59; }
+.user_cont_l_2b ul a .li_6_h { width:165px; height:40px; display:block;color:#FFFFFF;}
+
+.user_cont_r{ width:825px;float:right;}
+                 /*以下是我的消息中的样式*/
+.user_cont_r_2b img{float: right;}
+.user_cont_r_x_3c3{color:#0060a5;text-decoration: underline;}
+/*用户部分结束*/
+/*底部开始*/
+.bottom{ width:100%; background: #353131;color: #bebebe;font-size:14px;padding-bottom: 15px;text-align:center;}
+.bottom1{ width:1000px; margin:0px auto;text-align: center;}
+
+.bottom1_t ul{padding:25px 0px 0px 0px;margin-left:300px;}
+.bottom1_t ul li{ float:left;  text-align:center;margin-right: 20px;}
+.bottom1_b{margin:30px 0px 0px 0px;padding:10px 0px 0px 0px;clear:both;}
+
+.action_fenye{ width:100%; height:40px; line-height:40px; text-align:right; font-size:15px;}
+.action_fenye input{ width:30px; height:25px; border:1px solid #CCCCCC;vertical-align:middle; }
+
+

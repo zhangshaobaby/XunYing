@@ -1,0 +1,36 @@
+body{font-size:13px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0px;padding: 0px;}
+ul{list-style-type:none;}
+
+.pingtai{ width:1000px; margin:0px auto;}
+.pingtai1{padding:10px 0px;}
+.pingtai1 span{color:#e33340;}
+.pingtai2{border:1px solid #ccc;background-color: #fff;height:630px;padding-left:10px;;}
+
+.pingtai2_tit{width:930px;margin:0px auto;font-size: 16px;font-weight: bold;height:60px;background:url("../images/pingtai2_bg.png") no-repeat bottom;}
+.pingtai2_tit li{float:left;width:110px;padding:28px 0px 10px;text-align:center;}
+.pingtai2_tit1_h{background:url("../images/pingtai2_bg1.png") no-repeat bottom;color:#e33340;}
+.pingtai2_tit2_h{background:url("../images/pingtai2_bg2.png") no-repeat bottom;color:#EB7C23;}
+.pingtai2_tit3_h{background:url("../images/pingtai2_bg3.png") no-repeat bottom;color:#319DD0;}
+
+.pingtai2_pingtai{width:930px;height:400px;margin:0px auto;margin-top:20px;}
+.pingtai2_chanpin,.pingtai2_meiti{width:930px;height:400px;margin:0px auto;display:none;margin-top:20px;}
+.pingtai2_pingtai li,.pingtai2_chanpin li,.pingtai2_meiti li{ background:url("../images/square.png") no-repeat 0px 23px;padding-left:10px;line-height:50px;height:50px;}
+ .time1{float:right;margin-right:-20px;}
+ .time2{float:left;}
+
+
+.pingtai2 a:link,.pingtai2 a:visited{ width:900px;display:block;color:#767676;text-decoration:none;}
+.pingtai2 a:hover{color:#939090;}
+
+.user_cont_r_2d{clear:both;  height:60px; margin:10px 28px 20px 0px; text-align:right;  line-height:60px;}
+
+/*以下为平台公告*/
+
+.pingtai2_1{float:right;margin:20px 20px 20px 0px;}
+.pingtai2_1 img{margin:0px 5px 0px 0px;}
+.pingtai2_2{clear:both;text-align:center;font-size:18px;font-weight:bold;margin:10px 0px;}
+.pingtai2_3{text-align:center;font-size:14px;font-weight:bold;padding-bottom:35px;border-bottom:1px dashed #ccc;width:910px;margin:0px auto;}
+.pingtai2_4{text-align:left;font-size:14px;color:#767676;width:910px;margin:0px auto;}
+.pingtai2_4 p{margin:20px 0px;}
+.pingtai2_5{float:right;margin-right:35px;}

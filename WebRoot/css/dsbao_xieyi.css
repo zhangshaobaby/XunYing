@@ -1,0 +1,18 @@
+body{font-size:13px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0;padding:0;}
+.underline{border-bottom: 1px solid #000;}
+.server{width:1000px;position:relative;left:50%;margin-left:-500px;background-color: #fff;}
+.ser_top h3{text-align: center;font-size: 20px;padding:20px 0px 10px 0px;}
+.ser_top0{margin:0px 10px;padding:20px;border-bottom: 1px solid #aaa;}
+.ser_top0 a:link,.ser_top0 a:visited{float:right;color:#0060a5; text-decoration:underline;}
+.ser_top2 ul{list-style-type:none;margin:0px 20px 0px 30px;}
+.ser_top2 li{height:30px;}
+.ser_top1{margin:0px 20px;}
+.ser_con{margin:0px 20px;}
+.ser_con1{padding: 10px 0px;}
+.ser_con1 .title{font-size: 14px;font-weight: bold;}
+.ser_con1 .mid1{padding:5px 0px;}
+.ser_con1 .mid1_1{margin-left: 10px;}
+
+
+.ser_con .end{font-weight: bold;margin-bottom: 20px;font-size: 14px;}

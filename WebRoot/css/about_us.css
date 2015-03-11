@@ -1,0 +1,15 @@
+*{margin:0px;padding:0px;font-family:"Microsoft YaHei";}
+.about_us{width:100%;background-color: #fff;}
+.about_us img{border:0px;vertical-align: middle;}
+.about_us1{width:1000px;margin:0px auto;}
+.about_us1_1{text-align: center;}
+.about_us1_2{margin:40px auto 60px auto;font-size: 16px;text-indent:2em;color:#727272;font-family:"Microsoft YaHei";}
+.about_us1_2 p{margin-bottom: 3px;}
+.about_us1_3{height:174px;padding:20px 0px;}
+.about_us2{width:100%;height:174px;background-color:#fff;}
+.about_us2_1{width:1000px;margin:0px auto;padding: 20px 0px 20px 114px;}
+
+
+.about_us2_1 img{float: left;}
+.about_us2_1a{width:750px;margin-left:65px;float: left;font-size: 18px;}
+.about_us2_1a h3{padding:20px 0px;font-size: 18px;font-weight: bold;}

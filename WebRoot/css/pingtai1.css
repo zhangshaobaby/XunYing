@@ -1,0 +1,18 @@
+body{font-size:13px;background:#f6f6f6; color:#666666;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";}
+*{margin:0px;padding: 0px;}
+ul{list-style-type:none;}
+
+.pingtai{ width:1000px; margin:0px auto;}
+.pingtai1{padding:10px 0px;}
+.pingtai1 span{color:#e33340;}
+.pingtai2{border:1px solid #ccc;background-color: #fff;min-height:630px;padding-left:10px;;}
+.pingtai2_img{margin:0px auto;text-align:center;}
+.pingtai2_img img{width:772px;height:275px;margin:10px auto;}
+
+.pingtai2_1{float:right;margin:20px 20px 20px 0px;}
+.pingtai2_1 img{margin:0px 5px 0px 0px;}
+.pingtai2_2{clear:both;text-align:center;font-size:18px;font-weight:bold;margin:10px 0px;}
+.pingtai2_3{text-align:center;font-size:14px;font-weight:bold;padding-bottom:35px;border-bottom:1px dashed #ccc;width:910px;margin:0px auto;}
+.pingtai2_4{text-align:left;font-size:14px;color:#767676;width:910px;margin:0px auto;word-wrap:break-word; word-break:break-all;}
+.pingtai2_4 p{margin:20px 0px;}
+.pingtai2_5{float:right;margin-right:35px;margin-bottom:30px;}
